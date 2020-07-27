@@ -1,0 +1,24 @@
+<resources>
+    <!--index-->
+    <string name="app_name">개인적 글쓰기 공간</string>
+    <string name="app_title">Private Writing Place</string>
+    <string name="hint_pw">Password</string>
+    <!--main-->
+    <string-array name="spinner_total_category">
+        <item>전체</item>
+        <item>글</item>
+        <item>메모</item>
+        <item>일상</item>
+        <item>여행</item>
+    </string-array>
+
+    <!--write-->
+    <string-array name="spinner_category">
+        <item>글</item>
+        <item>메모</item>
+        <item>일상</item>
+        <item>여행</item>
+    </string-array>
+
+
+</resources>

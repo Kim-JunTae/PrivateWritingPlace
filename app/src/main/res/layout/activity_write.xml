@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:entries="@array/spinner_category"
+            android:layout_margin="4dp"/>
+
+        <EditText
+            android:id="@+id/title"
+            android:hint="제목을 입력하세요"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"/>
+
+        <EditText
+            android:id="@+id/content"
+            android:hint="내용을 입력하세요"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="저장"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_gravity="center|bottom"/>
+
+</LinearLayout>
